@@ -1,0 +1,163 @@
+.container{
+    display:grid;
+    width:100%;
+    grid-template-rows: 0.5fr 1fr 2fr 2fr 2fr 2fr 2fr 0.5fr;
+}
+.Icon img{
+   margin-top:20px;
+   margin-left: 2.5%;
+    width: 70px;
+    height: 70px;
+}
+.contents{
+    display:grid;
+    margin-top: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+}
+
+.col-1{
+  margin-top:50px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+
+}
+p{
+    justify-content: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 90px;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 30px;
+    padding: 0;
+  }
+
+ul li{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:20px;
+    text-decoration: underline;
+    text-decoration-color: lightgrey;
+}
+
+
+.video>iframe{
+    margin-top:100px;
+  
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+ .Casestudy>img{
+  margin-top: 30px;
+  height: 100%;
+  width:100%;
+  position:relative;
+  
+}
+/*<div class="card">
+                    <img src="jeans3.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>Tailored Jeans</h1>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans..</p>
+                    <p><button>Add to Cart</button></p>
+                  </div>
+*/
+/*.card {
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-bottom: 40px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  */
+  .HomeArticles{
+      margin-top:50px;
+      justify-items: center;
+      display:grid;
+      grid-auto-flow: row;
+      grid-template-columns: 0.5fr 1fr 1fr 0.5fr ;
+      grid-template-rows: 1fr 1fr;
+  }
+  .Artcile{
+      margin-right: 100px;
+      justify-content: center;
+  }
+
+  .Content{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top:50px;
+      justify-content: center;
+  }
+ .Content>h2{
+      padding: 30px 30px 30px 30px;
+      margin-left: 50px;
+ }
+ .align{
+     margin-top: 40px;
+    margin-left: 100px;
+ }
+  
+/*  
+<div class="tile-vertical ">
+    
+<span id="_5cfeb7450c4f9" class="link ">
+      <a href="https://www.wrayward.com/articles/water-designs-our-life-can-that-story-be-told-in-a-single-day"
+       rel="" title="View Article" target="_self" class="link__action ">
+              
+       <img src="https://www.wrayward.com/uploads/images/blog/WW-Blog-Moen-Mantauk-Thumb-2.jpg" 
+       alt="Water designs our life. Can that story be told in a single day?">
+    </a>
+</span> 
+
+<div class="tile-vertical__info">
+        <h4>Photography / Mar 21, 2019</h4>
+          
+    <span id="_5cfeb7450cd0e" class="link ">
+          <a href="https://www.wrayward.com/articles/water-designs-our-life-can-that-story-be-told-in-a-single-day"
+           rel="" title="View Article" target="_self" class="link__action ">
+            <h3>Water designs our life. Can that story be told in a single day?</h3>
+          </a>
+    </span>
+        <div class="tile-vertical__info__link-cont">
+
+           <span id="_5cfeb7450d169" class="link link--style">
+          <a href="https://www.wrayward.com/articles/water-designs-our-life-can-that-story-be-told-in-a-single-day" 
+          rel="" title="View Article" target="_self" class="link__action ">
+          View Article
+          </a>
+          </span>
+        </div>
+</div>
+<div>  */
