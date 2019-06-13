@@ -22,7 +22,7 @@
   margin-bottom: 100px;
 
 }
-.section_intro--content>p{
+.section__intro--content>p{
     justify-content: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 90px;

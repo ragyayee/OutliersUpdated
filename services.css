@@ -1,0 +1,130 @@
+.service__container{
+    display:grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr 4fr 2fr 0.8fr;
+   
+
+}
+.service__section-top-navbar{
+    display: grid;
+    height: 6rem;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr 3fr; 
+    background-color:#d6d6c2;
+    align-items: center;
+    
+}
+.section-top-navbar-icon{
+    height: 4rem;
+    width: 80%;
+    background-color:  #b8b894;
+   /* margin-bottom: 1rem;
+    margin-top:1rem;
+    margin-left: 1rem;
+    margin-right:1rem;*/
+
+   
+}
+.section-top-navbar-content{
+    height:3rem;
+    width: 5rem;
+    background-color:  #b8b894;
+    /*margin-top:2rem;*/
+    
+}
+.section-top-navbar-blank{
+    height:100%;
+    width: 100%;
+    
+}
+.section-top-navbar-learn_more{
+    background-color:  #b8b894;
+   /* margin-top:1rem;*/
+    margin-left:1rem;
+    height:80%;
+    width:80%;
+}
+.service__section-text-heading-1{
+    height:20rem;
+    width:100%;
+    background-color:  #b8b894;
+    
+}
+.service__service-image>img{
+  height:100%;
+  width:100%;
+  position: absolute;
+  
+  
+}
+.service__section-text-heading-2{
+    height:20rem;
+    width:100%;
+    background-color:  #b8b894;
+    margin-bottom: 2rem;
+    margin-top:5rem;
+   
+}
+.service__section-services{
+    display:grid;
+     grid-template-columns: 100px 2fr 2fr 100px;
+     grid-template-rows: 1fr 1fr 1fr 1fr;
+     grid-auto-flow: row;
+}
+.section-services-col-left{
+    height:21rem;
+    width:100%;
+    background-color:  #b8b894;
+    margin-right:3rem;
+    margin-bottom: 2rem;
+}
+.section-services-col-right{
+    margin-left: 3rem;
+    height:21rem;
+    width:100%;
+    background-color:  #b8b894;
+    
+}
+.service__section-text-heading-3{
+    height:25rem;
+    width:100%;
+    background-color:  #b8b894;
+    
+}
+.service__section--connect-to-us{
+    display: grid;
+    height:100%;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    background-color:#d6d6c2;
+     
+}
+.section--contact-us-address{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-top:1rem;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.section--contact-us-general{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:1rem;
+}
+.section--contact-us-contents{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:1rem;
+}
+.section--contact-us-links{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:1rem;
+}
