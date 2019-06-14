@@ -1,6 +1,6 @@
 .service__insight__container{
     display:grid;
-    grid-template-rows: 1fr 1fr 0.5fr 1fr 1fr 1fr 0.5fr 2fr 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 1fr 1fr 1fr 0.5fr 2fr 0.5fr 1fr 0.5fr 0.5fr;
 
 }
 .insight__section-top-navbar{
@@ -141,4 +141,43 @@
     margin-right: 2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
+}
+.insight__section--connect-to-us{
+    display: grid;
+    height:100%;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    background-color:#d6d6c2;
+     
+}
+.insight--contact-us-address{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-top:1rem;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+.insight--contact-us-general{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:1rem;
+}
+.insight--contact-us-contents{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:1rem;
+}
+.insight--contact-us-links{
+    height:90%;
+    width:90%;
+    background-color:  #b8b894;
+    margin-left:1rem;
+    margin-right:1rem;
+    margin-top:1rem;
 }
